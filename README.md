@@ -19,7 +19,7 @@ To install use pip:
 
 Or clone the repo:
 
-    $ git clone https://github.com/techmuch/handsontablesjs.git
+    $ git clone https://github.com/techmuch/jupyter-handsontables.git
     $ python setup.py install    
     
 Contributing

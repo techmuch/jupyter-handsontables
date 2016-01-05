@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: handsontablesjs
+Version: 0.0.1
+Summary: Integrate handsontables with pandas for jupyter
+Home-page: https://github.com/techmuch/handsontablesjs
+Author: David Fullmer
+Author-email: david.d.fullmer@gmail.com
+License: BSD
+Download-URL: https://github.com/techmuch/jupyter-handsontables/tarball/0.0.1
+Description: handsontables for jupyter
+        ===============================
+        
+        version number: 0.0.1
+        author: David Fullmer
+        
+        Overview
+        --------
+        
+        Integrate handsontables with pandas for jupyter with two way bindings.
+        
+        Installation / Usage
+        --------------------
+        
+        To install use pip:
+        
+            $ pip install handsontablesjs
+        
+        
+        Or clone the repo:
+        
+            $ git clone https://github.com/techmuch/jupyter-handsontables.git
+            $ python setup.py install    
+            
+        Contributing
+        ------------
+        
+        TBD
+        
+        Example
+        -------
+        
+            import numpy as np
+            import pandas as pd
+            from handsontablesjs import *
+            
+            data = np.random.randint(size=(3, 5), low=100, high=900)
+            df = pd.DataFrame(data)
+            
+            ht = HandsonTable(value=df)
+            
+        Simply use ht to view the handsontable or ht.value to view the pandas dataframe
+Keywords: excel table jupyter ipython notebook binding pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

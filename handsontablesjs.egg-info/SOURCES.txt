@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+handsontablesjs/__init__.py
+handsontablesjs.egg-info/PKG-INFO
+handsontablesjs.egg-info/SOURCES.txt
+handsontablesjs.egg-info/dependency_links.txt
+handsontablesjs.egg-info/top_level.txt
